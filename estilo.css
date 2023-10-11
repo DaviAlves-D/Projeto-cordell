@@ -1,0 +1,131 @@
+@charset
+<style>
+        
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gochi+Hand&family=Handlee&display=swap');
+  
+    
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gochi+Hand&family=Handlee&display=swap');
+  :root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;}
+
+    body{
+        min-height: 100vh;
+
+    }
+  
+
+  
+        header{
+            margin: 0px;
+      
+            background-color: black;
+             color: white;
+             text-align: center;
+             font-family: var(--fonte1);
+             font-size: 2em;            
+        }
+        header > h1{
+            padding: 50px;
+            font-variant: small-caps;
+            font-size: 5vw;
+        }
+        header > p {
+            padding-bottom: 50px;
+
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;           
+        }
+        a:hover { 
+            text-decoration: underline;
+        }
+        section{
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            line-height: 2em;
+            padding-left: 2em;
+            font-family: var(--fonte2);
+            font-size: 3vw;
+            font-weight: bold;
+        }
+        nav{
+            color: white;
+             text-align: center;
+             font-family: var(--fonte1);
+             font-size: 0.5em;
+             text-decoration: none;
+        }
+        nav.a {
+            text-decoration: none;
+            color: [white];
+        }
+        article{
+            
+            background-color: white;
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            padding-left: 30px;
+            line-height: 2em;
+            font-size: 1em;
+            text-align: left;
+            font-family: var(--fonte3);
+            font-weight: ;
+        }
+        #transparente1{
+            height: 100vh;
+            padding: 10px;
+        
+            background-image: url(imagens/background001.jpg);
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596)
+        }
+        .joaninha {
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            line-height: 2em;
+            padding-left: 2em;
+            font-size: 2vw;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.39);
+            font-family: var(--fonte2);
+            font-weight: bold;
+            display: inline-block;
+            
+            
+        }
+
+        #transparente2{
+            height: 100vh;
+            padding: 10px;
+            background-image: url(imagens/background002.jpg);
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596);
+           
+        }
+        .livro{
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            line-height: 2em;
+            padding-left: 2em;
+            font-size: 2vw;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.39);
+            font-family: var(--fonte2);
+            font-weight: bold;
+            display: inline-block;
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        </style>
